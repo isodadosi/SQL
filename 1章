@@ -1,0 +1,12 @@
+// SELECTで列を指定して表示
+SELECT 出金額
+FROM 家計簿
+
+// すべての列を取得
+SELECT *
+FROM 家計簿
+
+// Whereで条件指定
+SELECT 日付,費用,出金額
+FROM 家計簿
+WHERE 出金額 > 3000
