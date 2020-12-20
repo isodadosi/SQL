@@ -3,3 +3,8 @@
 '0' 文字として認識
 0 数字として認識
 
+/* 4大命令 */
+SELECT 列名 FROM テーブル名               ＋ WHERE（対象列） ＋ その他（検索結果の加工）
+UPDATE テーブル名 SET 列名 ＝ 値           + WHERE（対象列）
+DELETE FROM テーブル名                    + WHERE（対象列）
+INSERT INTO テーブル名（列名） VALUES（値）
