@@ -8,3 +8,8 @@ SELECT 列名 FROM テーブル名               ＋ WHERE（対象列） ＋ �
 UPDATE テーブル名 SET 列名 ＝ 値           + WHERE（対象列）
 DELETE FROM テーブル名                    + WHERE（対象列）
 INSERT INTO テーブル名（列名） VALUES（値）
+
+・ASによる 別名の定義
+SELECT 費目 AS ITEM,  入金額 AS RECEIVE, 出金額 AS PAY
+FROM 家計簿 AS MONEYBOOK
+WHERE 費目 = '給料'
