@@ -13,3 +13,12 @@ INSERT INTO テーブル名（列名） VALUES（値）
 SELECT 費目 AS ITEM,  入金額 AS RECEIVE, 出金額 AS PAY
 FROM 家計簿 AS MONEYBOOK
 WHERE 費目 = '給料'
+
+・ WHEREなしだとすべての列を変更(UPDATE DELETE)
+UPDATE 家計簿
+SET 入金額 = 999
+
+・ INSERT VALUESで対応した値を挿入 空いてるところはNULL
+INSERT INTO 家計簿 (費目    , 日付         , 出金額)
+            VALUES('通信費', '2013-02-20', 6200)
+
