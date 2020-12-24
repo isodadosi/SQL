@@ -27,4 +27,21 @@ INSERT INTO 家計簿 (費目    , 日付         , 出金額)
 INSERT INTO 家計簿
 VALUES ('2013-02-20', '通信費', '携帯電話', 0, 6200)
 
-64-68
+・4大命令をスッキリ覚える 64-68
+
+・練習問題
+2-1
+A SELECT
+B UPDATE
+C DELETE
+D INSERT
+E FROM
+F FROM
+G INTO
+H WHERE
+
+2-2
+少数 ー＞ DECIMAL
+
+2-3
+
