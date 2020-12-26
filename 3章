@@ -1,0 +1,4 @@
+・ NULLの判定 NULLは比較演算子で判定できない
+SELECT *
+FROM 家計簿
+WHERE 出金額 IS NULL
