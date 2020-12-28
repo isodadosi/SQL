@@ -2,3 +2,12 @@
 SELECT *
 FROM 家計簿
 WHERE 出金額 IS NULL
+
+・ パターンマッチング LIKE %：任意の0文字以上  _:任意の一文字
+SELECT * FROM 家計簿
+WHERE メモ LIKE '%1月%'
+
+・ BETWEEN 値1から値2の間
+SELECT *
+FROM 家計簿
+WHERE 出勤簿 BETWEEN 100 AND 3000
