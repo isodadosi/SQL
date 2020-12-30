@@ -16,3 +16,7 @@ WHERE 出勤簿 BETWEEN 100 AND 3000
 SELECT *
 FROM 家計簿
 WHERE 費用 IN ('食費', '交際費')
+
+・ ANY と ALL 数値の比較
+
+・ AND と OR 論理演算子
