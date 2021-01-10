@@ -72,3 +72,6 @@ SELECT 都道府県名 FROM 気象観測 WHERE 都道府県名 LIKE '%愛%'
 SELECT * FROM 気象観測 WHERE 都道府県名=県庁所在地
 5
 SELECT * FROM 気象観測 WHERE 都道府県名<>県庁所在地
+
+3-3
+SELECT * FROM 成績表
