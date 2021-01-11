@@ -74,4 +74,7 @@ SELECT * FROM 気象観測 WHERE 都道府県名=県庁所在地
 SELECT * FROM 気象観測 WHERE 都道府県名<>県庁所在地
 
 3-3
+1
 SELECT * FROM 成績表
+2
+INSERT INTO 成績表('S001','織田 信長',77,55,80,75,93,NULL);
